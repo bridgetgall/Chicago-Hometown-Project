@@ -1,0 +1,185 @@
+.home {
+  background-image: url(images/city.png);
+  max-width: 100%;
+  width: 1920px;
+  height: 1080px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.history {
+  background-image: url(images/day-city.png);
+  max-width: 100%;
+  width: 1920px;
+  height: 1080px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.visit {
+  background-image: url(images/city-night.png);
+  max-width: 100%;
+  width: 1920px;
+  height: 1080px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.page-header {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding: 10px 20px;
+  font-size: 30px;
+}
+.page-header:hover {
+  color: #c70f3e;
+}
+#page-header-link {
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 50px;
+}
+#page-header-link:hover {
+  color: #c70f3e;
+}
+
+.full-navigation {
+  padding-right: 50px;
+}
+.hero {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-shadow: -2px 3px 4px rgb(199, 15, 62, 0.5);
+  font-weight: 700;
+  font-size: 150px;
+  margin-top: 17%;
+  animation: fadein 2s;
+}
+
+.hero-history {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-shadow: -2px 3px 4px rgb(199, 15, 62, 0.5);
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 3%;
+
+  animation: fadein 2s;
+}
+
+.hero-visit {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-shadow: -2px 3px 4px rgb(199, 15, 62, 0.5);
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 3%;
+
+  animation: fadein 2s;
+}
+
+.home-copy {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  animation: fadein ease 2s;
+}
+
+.home-button {
+  background-color: #c70f3e;
+  box-shadow: -2px 5px 5px rgb(0, 0, 0, 0.5);
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 35px;
+  border-radius: 40px;
+  border: none;
+  animation: fadein ease 2s;
+}
+
+.home-button a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  transition: all 200ms ease;
+}
+.home-button:hover {
+  border: 1px solid #c70f3e;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#chicagoTheater {
+  width: 400px;
+  height: auto;
+}
+#chicagoStreet {
+  width: 400px;
+  height: auto;
+}
+.section-one {
+  margin-top: 7%;
+  padding-top: 25px;
+}
+.section-two {
+  padding-bottom: 25px;
+}
+.history-full {
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: -70px;
+}
+
+.history-full p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.history-full h4 {
+  color: whitesmoke;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.bean-button {
+  background-color: #c70f3e;
+  font-family: "Poppins", sans-serif;
+}
+
+.bean-card {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.bean-text,
+.bean-title {
+  color: white;
+}
+@media (max-width: 1200px) {
+  .history {
+    background-size: auto;
+  }
+  .history-full {
+    margin-top: 0px;
+  }
+  #chicagoTheater,
+  #chicagoStreet {
+    display: block;
+    margin: 0 auto;
+  }
+}
