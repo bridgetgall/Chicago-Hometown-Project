@@ -241,6 +241,17 @@
   background-color: #c70f3e;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.footer a {
+  color: white;
+}
+
 @media (max-width: 1200px) {
   .history {
     background-size: auto;
