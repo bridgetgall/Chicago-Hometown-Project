@@ -31,6 +31,17 @@
   text-align: center;
 }
 
+.contact {
+  background-image: url(images/bw-city.jpg);
+  max-width: 100%;
+  width: 1920px;
+  height: 1080px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
 .page-header {
   color: white;
   font-family: "Poppins", sans-serif;
@@ -85,6 +96,37 @@
   margin-top: 3%;
 
   animation: fadein 2s;
+}
+
+.hero-contact {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-shadow: -2px 3px 4px rgb(199, 15, 62, 0.5);
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  animation: fadein 2s;
+  margin: 0 auto;
+  margin-top: 12%;
+}
+.email {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  animation: fadein ease 2s;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #c70f3e;
+  color: #c70f3e;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.email:hover {
+  box-shadow: inset 400px 0 0 0 #c70f3e;
+  color: white;
 }
 
 .home-copy {
@@ -158,18 +200,47 @@
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
-.bean-button {
+.bean-button,
+.tower-button,
+.cubs-button {
   background-color: #c70f3e;
   font-family: "Poppins", sans-serif;
 }
 
-.bean-card {
-  background-color: rgb(0, 0, 0, 0.5);
+.bean-card,
+.tower-card,
+.cubs-card {
+  background-color: rgb(0, 0, 0, 0.75);
+  margin: 0 auto;
 }
 .bean-text,
-.bean-title {
+.tower-text,
+.cubs-text {
   color: white;
 }
+
+.bean-title,
+.tower-title,
+.cubs-title {
+  color: white;
+  font-weight: 800;
+}
+.card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: contain;
+}
+
+.bean-button:hover,
+.cubs-button:hover,
+.tower-button:hover {
+  background-color: white;
+}
+
+.navbar-toggler {
+  background-color: #c70f3e;
+}
+
 @media (max-width: 1200px) {
   .history {
     background-size: auto;
@@ -181,5 +252,11 @@
   #chicagoStreet {
     display: block;
     margin: 0 auto;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+  .visit {
+    background-size: auto;
   }
 }
